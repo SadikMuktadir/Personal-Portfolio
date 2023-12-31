@@ -1,10 +1,16 @@
 import { useForm } from "react-hook-form";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({ duration: "1000" });
+  }, []);
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div data-aos="zoom-in" className="flex flex-col items-center justify-center">
       <div>
         <p className="text-center text-[#98A2B3] text-[20px]">Get In Touch</p>
       </div>
@@ -42,7 +48,7 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div className="flex">
+          <div className="flex mb-[40px]">
             <div className="mr-[50px]">
               <label className="label">
                 <span className="label-text mb-1 text-[20px]">Email</span>

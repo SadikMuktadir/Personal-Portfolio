@@ -35,7 +35,7 @@ const Navbar = () => {
           About Me
         </NavLink>
       </li>
-      <li>
+      {/* <li>
         <NavLink
           to="/services"
           style={({ isActive }) => {
@@ -50,10 +50,10 @@ const Navbar = () => {
         >
           Services
         </NavLink>
-      </li>
+      </li> */}
       <li>
         <NavLink
-          to="/resume"
+          to="/skills"
           style={({ isActive }) => {
             return {
               fontWeight: isActive ? "bold" : "",
@@ -64,7 +64,7 @@ const Navbar = () => {
             };
           }}
         >
-          Resume
+          Skills
         </NavLink>
       </li>
       <li>

@@ -24,7 +24,7 @@ const WhyHire = () => {
             className="mt-[40px] text-[#171717] hover:text-white bg-white hover:bg-[#FD853A] w-[250px] rounded-[35px] px-[60px] py-[30px]"
             style={{ border: "1px solid #171717", padding: "13px 25px"}}
           >
-            <h1 className="text-[20px] text-center font-semibold">Hire Me</h1>
+            <h1 className="text-[20px] text-center font-semibold">Contact Me</h1>
           </div></Link>
         </div>
       </div>
