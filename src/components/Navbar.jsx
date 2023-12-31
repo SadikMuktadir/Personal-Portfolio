@@ -96,7 +96,7 @@ const Navbar = () => {
             };
           }}
         >
-          Contact
+          Contact Me
         </NavLink>
       </li>
       {/* <li>
