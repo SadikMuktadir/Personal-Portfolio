@@ -2,15 +2,49 @@ import { useForm } from "react-hook-form";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
+import Swal from "sweetalert2";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 const Contact = () => {
+  const form = useRef();
   useEffect(() => {
     AOS.init({ duration: "1000" });
   }, []);
-  const { register, handleSubmit } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const { register, handleSubmit, reset } = useForm();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_nngcx6p",
+        "template_uvpccui",
+        form.current,
+        "-aCt0hmXxFpSp-9l2"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  const onSubmit = (data) => {
+    if (data) {
+      Swal.fire({
+        title: "Success!",
+        text: "Your Message has been send.",
+        icon: "success",
+      });
+      reset();
+    }
+  };
   return (
-    <div data-aos="zoom-in" className="flex flex-col items-center justify-center">
+    <div
+      data-aos="zoom-in"
+      className="flex flex-col items-center justify-center"
+    >
       <div>
         <p className="text-center text-[#98A2B3] text-[20px]">Get In Touch</p>
       </div>
@@ -21,7 +55,13 @@ const Contact = () => {
         </h1>
       </div>
       <div>
-        <form onSubmit={handleSubmit(onSubmit)}>
+        <form
+          ref={form}
+          onSubmit={(e) => {
+            sendEmail(e);
+            handleSubmit(onSubmit)(e);
+          }}
+        >
           <div className="flex mb-[40px]">
             <div className="mr-[50px]">
               <label className="label">
