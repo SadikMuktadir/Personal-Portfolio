@@ -117,12 +117,13 @@ const Navbar = () => {
   return (
     <div>
       <div className="navbar bg-[#171717] rounded-[60px] my-[40px]">
-        <div className="navbar-start p-4">
+        <div className="navbar-start lg:p-4">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
+                
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 text-[#FFF]"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -146,7 +147,7 @@ const Navbar = () => {
             <div className="bg-[#FD853A] p-[5px] mr-2 rounded-[50px] my-auto h-[30px]">
               <img src="https://i.ibb.co/jkPrFV5/Vector.png" alt="" />
             </div>
-            <p className="text-[40px] text-white font-bold">Sadik</p>
+            <p className="text-[20px] lg:text-[40px] text-white font-bold">Sadik</p>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
