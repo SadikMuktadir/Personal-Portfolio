@@ -29,7 +29,8 @@ const AboutMe = () => {
       <div data-aos="zoom-in" className="flex justify-between">
         <div className="w-[500px] p-[50px] bg-[#F2F4F7] rounded-[30px] mr-5">
           <p className="text-[30px] font-bold">
-            Rajshahi University Of Engineering And Technology <span className="text-[#FD853A]">(RUET)</span>
+            Rajshahi University Of Engineering And Technology{" "}
+            <span className="text-[#FD853A]">(RUET)</span>
           </p>
           <p className="my-4 text-[20px] text-[#98A2B3]">
             {" "}
@@ -42,7 +43,7 @@ const AboutMe = () => {
         </div>
         <div className="w-[500px] rounded-[30px] p-[50px] bg-[#F2F4F7] mr-5">
           <p className="text-[30px] font-bold">
-          <span className="text-[#FD853A]">Naogaon</span> Govt. College
+            <span className="text-[#FD853A]">Naogaon</span> Govt. College
           </p>
           <p className="my-4 text-[20px] text-[#98A2B3]"> HSC 2020</p>
           <p className="text-[20px] text-[#98A2B3] font-semibold">
@@ -52,13 +53,44 @@ const AboutMe = () => {
         </div>
         <div className="w-[500px] rounded-[30px] p-[50px] bg-[#F2F4F7]">
           <p className="text-[30px] font-bold">
-          <span className="text-[#FD853A]">Naogaon</span> KD Govt. High School
+            <span className="text-[#FD853A]">Naogaon</span> KD Govt. High School
           </p>
           <p className="my-4 text-[20px] text-[#98A2B3]"> SSC 2018</p>
           <p className="text-[20px] text-[#98A2B3] font-semibold">
             {" "}
             GPA 5.0 out of 5.0
           </p>
+        </div>
+      </div>
+      <div data-aos="zoom-in" className="my-[80px]">
+        <h1 className="text-[64px] font-semibold text-center">
+          <span className="text-[#FD853A]">Course</span>
+        </h1>
+      </div>
+      <div className="w-[500px] rounded-[30px] p-[50px] bg-[#F2F4F7] mr-5">
+        <p className="text-[30px] font-bold">
+          Complete <span className="text-[#FD853A]">Web Development</span>
+        </p>
+        <p className="my-4 text-[20px] text-[#98A2B3]">
+          June 2023 - December 2023
+        </p>
+        <p className="text-[20px] text-[#98A2B3] font-semibold">
+          {" "}
+          @ Programming Hero
+        </p>
+        <div className="flex">
+        <div className="mt-4">
+          <p>Acquired training on building multiple websites like</p>
+          <ul>
+            <li>1. Blog website</li>
+            <li>2. Movie website</li>
+            <li>3. Donation campaign website</li>
+            <li>3. Donation campaign website</li>
+            <li>4. Course registration website</li>
+            <li>5. Gym website</li>
+            <li>6. Restaurant website and many more.....</li>
+          </ul>
+        </div>
         </div>
       </div>
     </div>

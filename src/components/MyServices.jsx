@@ -21,7 +21,7 @@ const MyServices = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="card h-[500px] w-[400px] shadow-xl">
+            <div className="card w-[400px] shadow-xl">
               <div className="card-body">
                 <div className="h-[120px]">
                   <h2 className="text-[32px] px-3 text-center">
@@ -31,8 +31,8 @@ const MyServices = () => {
                 <div className="divider"></div>
                 <div>
                   <figure>
-                    <img
-                      src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <img className="h-[350px] w-[350px]"
+                      src="https://i.ibb.co/QnYGqN9/lee-campbell-Dt-Dl-Vpy-vv-Q-unsplash.jpg"
                       alt="Shoes"
                     />
                   </figure>
@@ -41,7 +41,7 @@ const MyServices = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card h-[500px] w-[400px] bg-base-100 shadow-xl">
+            <div className="card w-[400px] bg-base-100 shadow-xl">
               <div className="card-body">
                 <div className="h-[120px]">
                   <h2 className="text-[32px] px-3 text-center">E-commerce website</h2>
@@ -49,8 +49,8 @@ const MyServices = () => {
                 <div className="divider"></div>
                 <div>
                   <figure>
-                    <img
-                      src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <img className="h-[350px] w-[350px]"
+                      src="https://i.ibb.co/FscVxxn/roberto-cortese-F1-I4-IN86-Ni-E-unsplash.jpg"
                       alt="Shoes"
                     />
                   </figure>
@@ -59,7 +59,7 @@ const MyServices = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card h-[500px] w-[400px] bg-base-100 shadow-xl">
+            <div className="card w-[400px] bg-base-100 shadow-xl">
               <div className="card-body">
                 <div className="h-[120px]">
                   <div className="h-[120px]">
@@ -71,8 +71,8 @@ const MyServices = () => {
                 <div className="divider"></div>
                 <div>
                   <figure>
-                    <img
-                      src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <img className="h-[350px] w-[350px]"
+                      src="https://i.ibb.co/84d6s3V/igor-miske-JVSgc-V8-vb4-unsplash.jpg"
                       alt="Shoes"
                     />
                   </figure>
@@ -81,7 +81,7 @@ const MyServices = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card h-[500px] w-[400px] bg-base-100 shadow-xl">
+            <div className="card w-[400px] bg-base-100 shadow-xl">
               <div className="card-body">
                 <div className="h-[120px]">
                   <h2 className="text-[32px] px-3 text-center">MERN Stack Application</h2>
@@ -89,8 +89,8 @@ const MyServices = () => {
                 <div className="divider"></div>
                 <div>
                   <figure>
-                    <img
-                      src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <img className="h-[350px] w-[350px]"
+                      src="https://i.ibb.co/Tmjf7g9/balazs-ketyi-x335-IZXxfc-unsplash.jpg"
                       alt="Shoes"
                     />
                   </figure>
@@ -99,7 +99,7 @@ const MyServices = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="card h-[500px] w-[400px] bg-base-100 shadow-xl">
+            <div className="card w-[400px] bg-base-100 shadow-xl">
               <div className="card-body">
                 <div className="h-[120px]">
                   <h2 className="text-[32px] px-3 text-center">Fix Error</h2>
@@ -107,8 +107,8 @@ const MyServices = () => {
                 <div className="divider"></div>
                 <div>
                   <figure>
-                    <img
-                      src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <img className="h-[350px] w-[350px]"
+                      src="https://i.ibb.co/QDR77Vs/clement-helardot-95-YRwf6-CNw8-unsplash.jpg"
                       alt="Shoes"
                     />
                   </figure>
