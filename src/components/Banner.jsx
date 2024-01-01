@@ -36,17 +36,31 @@ const Banner = () => {
         </div>
         <div className="flex mb-5">
           <div className="h-[50px] w-[50px] mr-3">
-            <img src="https://i.ibb.co/qymLgdr/images.png" alt="" />
+            <a href="https://www.facebook.com/sadikmuktadir.mithun" target="_blank"
+              rel="noopener noreferrer"> <img src="https://i.ibb.co/qymLgdr/images.png" alt="" /></a>
           </div>
-          <div className="h-[50px] w-[50px] mr-3">
-            <img src="https://i.ibb.co/vzJ98Qb/download.png" alt="" />
-          </div>
-          <div className="h-[50px] w-[50px]">
-            <img
-              src="https://i.ibb.co/qyqBcFz/Git-Hub-Mark-ea2971cee799.png"
-              alt=""
-            />
-          </div>
+          <a href="https://wa.me/01849142810" target="_blank"
+            rel="noopener noreferrer">
+            <div className="h-[50px] w-[50px] mr-3">
+              <img src="https://i.ibb.co/vzJ98Qb/download.png" alt="" />
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/md-sadik-moktadir-mithun-18b9b828b" target="_blank"
+            rel="noopener noreferrer">
+            <div className="h-[50px] w-[50px] mr-3">
+              <img src="https://i.ibb.co/ZMPsJN2/png-transparent-linkedin-logo-linkedin-logo-computer-icons-business-symbol-linkedin-icon-miscellaneo.png" alt="" />
+            </div>
+          </a>
+
+          <a href="https://github.com/SadikMuktadir" target="_blank"
+            rel="noopener noreferrer">
+            <div className="h-[50px] w-[50px]">
+              <img
+                src="https://i.ibb.co/qyqBcFz/Git-Hub-Mark-ea2971cee799.png"
+                alt=""
+              />
+            </div>
+          </a>
         </div>
         <div>
           <div
