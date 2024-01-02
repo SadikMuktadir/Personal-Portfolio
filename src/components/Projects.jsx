@@ -8,12 +8,12 @@ const Projects = () => {
   return (
     <div data-aos="zoom-in" className="mb-[100px]">
       <div className="mb-[80px]">
-        <h1 className="text-[64px] font-semibold text-center">
+        <h1 className="text-[40px] lg:text-[64px] font-semibold text-center">
           My <span className="text-[#FD853A]">Projects</span>
         </h1>
       </div>
       <div>
-        <div className="card w-[400px] shadow-xl">
+        <div className="card w-[300px] lg:w-[400px] shadow-xl">
           <div className="card-body">
             <div className="h-[80px]">
               <h2 className="text-[32px] px-3 text-center">
@@ -24,14 +24,14 @@ const Projects = () => {
             <div>
               <figure>
                 <img
-                  className="h-[350px] w-[350px]"
+                  className="h-[200px] lg:h-[350px] w-[200px] lg:w-[350px]"
                   src="https://i.ibb.co/YfLcxhD/brooke-lark-lc-Z9-Nxh-OSlo-unsplash.jpg"
                   alt="Shoes"
                 />
               </figure>
             </div>
           </div>
-          <div className="flex my-4 mx-auto">
+          <div className="flex flex-col lg:flex-row my-4 mx-auto">
             <div>
               <a
                 href="https://wizard-8c012.web.app/"
@@ -39,7 +39,7 @@ const Projects = () => {
                 rel="noopener noreferrer"
               >
                 <div
-                  className="mr-4 text-[#171717] hover:text-white bg-white hover:bg-[#FD853A] w-[150px] rounded-[35px] px-[60px] py-[30px]"
+                  className="mr-4 text-[#171717] hover:text-white bg-white hover:bg-[#FD853A] w-[200px] mb-2 lg:mb-0 lg:w-[150px] rounded-[35px] px-[60px] py-[30px]"
                   style={{ border: "1px solid #171717", padding: "13px 25px" }}
                 >
                   <h1 className="text-[20px] text-center font-semibold">

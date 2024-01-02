@@ -26,7 +26,7 @@ const AboutMe = () => {
           My <span className="text-[#FD853A]">Education</span>
         </h1>
       </div>
-      <div data-aos="zoom-in" className="flex flex-col lg:flex-row justify-between">
+      <div data-aos="zoom-in" className="pl-5 lg:pl-0 flex flex-col lg:flex-row justify-between">
         <div className="w-[280px] lg:w-[500px] p-[20px] lg:p-[50px] bg-[#F2F4F7] rounded-[30px] mr-5">
           <p className="text-[20px] lg:text-[30px] font-bold">
             Rajshahi University Of Engineering And Technology{" "}
@@ -67,6 +67,7 @@ const AboutMe = () => {
           <span className="text-[#FD853A]">Course</span>
         </h1>
       </div>
+      <div className="pl-5 lg:pl-0">
       <div className="w-[280px] lg:w-[500px] rounded-[30px] p-[20px] lg:p-[50px] bg-[#F2F4F7] mr-5">
         <p className="text-[20px] lg:text-[30px] font-bold">
           Complete <span className="text-[#FD853A]">Web Development</span>
@@ -92,6 +93,7 @@ const AboutMe = () => {
           </ul>
         </div>
         </div>
+      </div>
       </div>
     </div>
   );
