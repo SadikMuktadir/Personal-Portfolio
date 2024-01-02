@@ -49,7 +49,7 @@ const Contact = () => {
         <p className="text-center text-[#98A2B3] text-[20px]">Get In Touch</p>
       </div>
       <div className="mb-[80px]">
-        <h1 className="text-[64px] font-semibold text-center">
+        <h1 className="text-[40px] lg:text-[64px] font-semibold text-center">
           <span className="text-[#FD853A]">Contact </span>
           <span className=""> Me</span>
         </h1>
@@ -62,13 +62,13 @@ const Contact = () => {
             handleSubmit(onSubmit)(e);
           }}
         >
-          <div className="flex mb-[40px]">
-            <div className="mr-[50px]">
+          <div className="flex flex-col lg:flex-row mb-2 lg:mb-[40px]">
+            <div className="lg:mr-[50px]">
               <label className="label">
                 <span className="label-text mb-1 text-[20px]">First name</span>
               </label>
               <input
-                className="input input-bordered border-[#FD853A] w-[500px] h-[64px]"
+                className="input input-bordered border-[#FD853A] w-[200px] lg:w-[500px] h-[40px] lg:h-[64px]"
                 type="text"
                 placeholder="Enter Your Name"
                 {...register("firstName")}
@@ -80,7 +80,7 @@ const Contact = () => {
                 <span className="label-text mb-1 text-[20px]">Last name</span>
               </label>
               <input
-                className="input input-bordered border-[#FD853A] w-[500px] h-[64px]"
+                className="input input-bordered border-[#FD853A] w-[200px] lg:w-[500px] h-[40px] lg:h-[64px]"
                 type="text"
                 placeholder="Enter Your Last Name"
                 {...register("lastName")}
@@ -88,13 +88,13 @@ const Contact = () => {
               />
             </div>
           </div>
-          <div className="flex mb-[40px]">
-            <div className="mr-[50px]">
+          <div className="flex flex-col lg:flex-row mb-[40px]">
+            <div className="lg:mr-[50px]">
               <label className="label">
                 <span className="label-text mb-1 text-[20px]">Email</span>
               </label>
               <input
-                className="input input-bordered border-[#FD853A] w-[500px] h-[64px]"
+                className="input input-bordered border-[#FD853A] w-[200px] lg:w-[500px] h-[40px] lg:h-[64px]"
                 type="email"
                 placeholder="Enter Your Email"
                 {...register("email")}
@@ -108,7 +108,7 @@ const Contact = () => {
                 </span>
               </label>
               <input
-                className="input input-bordered border-[#FD853A] w-[500px] h-[64px]"
+                className="input input-bordered border-[#FD853A] w-[200px] lg:w-[500px] h-[40px] lg:h-[64px]"
                 type="number"
                 placeholder="Enter Your Phone number"
                 {...register("phone")}
@@ -122,7 +122,7 @@ const Contact = () => {
                 <span className="label-text mb-1 text-[20px]">Message</span>
               </label>
               <input
-                className="input input-bordered border-[#FD853A] w-[1050px] h-[240px]"
+                className="input input-bordered border-[#FD853A] w-[200px] lg:w-[1050px] h-[240px]"
                 type="text"
                 placeholder="Enter Your Message"
                 {...register("message")}
