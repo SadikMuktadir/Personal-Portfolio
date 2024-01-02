@@ -19,7 +19,7 @@ const Banner = () => {
             <div className="flex justify-center items-center">
               <MdEmail className="text-[20px] mr-4" />
             </div>
-            <p className="text-[15px] lg:text-[25px]">sadikmuktadir2.0@gmail.com</p>
+            <p className="text-[15px] lg:text-[25px]">sadikmoktadirweb@gmail.com</p>
           </div>
           <div className="flex mb-2">
             <div className="flex justify-center items-center">
@@ -67,7 +67,7 @@ const Banner = () => {
             className="mt-[40px] text-[#171717] hover:text-white bg-white hover:bg-[#FD853A] w-[250px] rounded-[35px] px-[60px] py-[30px]"
             style={{ border: "1px solid #171717", padding: "13px 25px" }}
           >
-            <a href="main.pdf" download>
+            <a href="SadikMoktadirResume.pdf" download>
               <div className="flex">
                 <div className="mr-2">
                   <MdDownload className="text-[30px]" />
@@ -81,7 +81,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <div className="h-[360px] w-[360px]">
+        <div className="h-[200px] lg:h-[360px] w-[200px] lg:w-[360px]">
           <img
             className="rounded-[180px]"
             src="photo1703232155.jpeg"

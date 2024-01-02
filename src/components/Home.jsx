@@ -5,6 +5,7 @@ import MyServices from "./MyServices";
 import WhyHire from "./WhyHire";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ServiceMobile from "./ServiceMobile";
 const Home = () => {
   useEffect(() => {
     AOS.init({ duration: "1000" });
@@ -16,6 +17,9 @@ const Home = () => {
       </div>
       <div className="hidden lg:block" data-aos="zoom-in">
         <MyServices></MyServices>
+      </div>
+      <div className="block lg:hidden" data-aos="zoom-in">
+        <ServiceMobile></ServiceMobile>
       </div>
       <div data-aos="zoom-in">
         <MyExperience></MyExperience>
