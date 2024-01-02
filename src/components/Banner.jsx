@@ -67,7 +67,7 @@ const Banner = () => {
             className="mt-[40px] text-[#171717] hover:text-white bg-white hover:bg-[#FD853A] w-[250px] rounded-[35px] px-[60px] py-[30px]"
             style={{ border: "1px solid #171717", padding: "13px 25px" }}
           >
-            <a href="Md Sadik Moktadir Mithun.pdf" download>
+            <a href="main.pdf" download>
               <div className="flex">
                 <div className="mr-2">
                   <MdDownload className="text-[30px]" />

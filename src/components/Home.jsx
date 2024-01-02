@@ -14,7 +14,7 @@ const Home = () => {
       <div data-aos="zoom-in">
         <Banner></Banner>
       </div>
-      <div data-aos="zoom-in">
+      <div className="hidden lg:block" data-aos="zoom-in">
         <MyServices></MyServices>
       </div>
       <div data-aos="zoom-in">

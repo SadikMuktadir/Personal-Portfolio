@@ -6,7 +6,7 @@ const MyExperience = () => {
           My <span className="text-[#FD853A]">Work Experience</span>
         </h1>
       </div>
-      <div className="flex justify-between">
+      <div className="px-4 lg:px-0 flex justify-between">
         <div>
         <p className="text-[30px] lg:text-[40px] font-bold mb-2">Fiverr</p>
         <p className="text-[15px] lg:text-[20px] text-[#98A2B3] font-sm">November 2023- Present</p>
