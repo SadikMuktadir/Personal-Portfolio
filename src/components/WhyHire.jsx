@@ -15,8 +15,8 @@ const WhyHire = () => {
           I have been involved in the IT sector since 2022. I work for crafting
           seamless, dynamic web applications and pushing the boundaries of
           innovation. I am passionate and always ready for learning new
-          technology and creating exciting projects.I Use MongoDB, Express JS,
-          React JS And Node JS for creating full stack web applications.
+          technology and creating exciting projects.I use MongoDB, Express JS,
+          React JS and Node JS for creating full stack web applications.
         </p>
         <div>
           <p className="text-[36px] font-semibold">10+</p>

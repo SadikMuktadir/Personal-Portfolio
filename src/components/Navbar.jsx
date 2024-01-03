@@ -144,10 +144,12 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="flex">
-            <div className="bg-[#FD853A] p-[5px] mr-2 rounded-[50px] my-auto h-[30px]">
-              <img src="https://i.ibb.co/jkPrFV5/Vector.png" alt="" />
+            <div className="my-auto mr-2 bg-white rounded-[50px]">
+              <img className="h-[50px] w-[50px]" src="Sadik_Moktadir-removebg-preview.png" alt="" />
             </div>
+            <div className="my-auto">
             <p className="text-[20px] lg:text-[40px] text-white font-bold">Sadik</p>
+            </div>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
