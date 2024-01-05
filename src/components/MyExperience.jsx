@@ -6,19 +6,23 @@ const MyExperience = () => {
           My <span className="text-[#FD853A]">Work Experience</span>
         </h1>
       </div>
-      <div className="px-4 lg:px-0 flex justify-between">
-        <div>
-        <p className="text-[30px] lg:text-[40px] font-bold mb-2">Fiverr</p>
-        <p className="text-[15px] lg:text-[20px] text-[#98A2B3] font-sm">November 2023- Present</p>
-        </div>
-        <div>
-            <p className="w-[20px] h-[20px] my-5 lg:my-[0] lg:w-[30px] lg:h-[30px] rounded-[48px] bg-[#FD853A]"></p>
-        </div>
-        <div className="flex flex-col">
-        <p className="text-[30px] lg:text-[40px] font-bold mb-2">Web Developer</p>
-        <div className="w-[200px] lg:w-[440px]">
-        <p className="text-[15px] lg:text-[20px] text-[#98A2B3] w-[200px] lg:w-[440px]">Dedicated and detail-oriented designer with so many works and experience. I have a clear, logical mind with a practical approach to problem-solving and a drive to see things through to completion.</p>
-        </div>
+      <div className="w-[280px] lg:w-[500px] p-[20px] lg:p-[50px] bg-[#F2F4F7] rounded-[30px] mr-5">
+        <p className="text-[20px] lg:text-[30px] font-bold">Lead Heros</p>
+        <p className="text-[#FD853A] text-[15px] font-semibold lg:text-[20px]">
+          Web Developer
+        </p>
+        <p className="text-[15px] lg:text-[20px] text-[#98A2B3] ">
+          December 2023- Present
+        </p>
+        <div className="mt-2">
+          <p className="font-bold">Main Responsibility :</p>
+          <p>
+            <ul style={{ listStyleType: "circle" }}>
+              <li>Website design and development</li>
+              <li>Fix website bug</li>
+              <li>Development team management</li>
+            </ul>
+          </p>
         </div>
       </div>
     </div>

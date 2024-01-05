@@ -145,7 +145,7 @@ const Navbar = () => {
           </div>
           <div className="flex">
             <div className="my-auto mr-2 bg-white rounded-[50px]">
-              <img className="h-[50px] w-[50px]" src="Sadik_Moktadir-removebg-preview.png" alt="" />
+              <img className="h-[20px] lg:h-[50px] w-[20px] lg:w-[50px]" src="Sadik_Moktadir-removebg-preview.png" alt="" />
             </div>
             <div className="my-auto">
             <p className="text-[20px] lg:text-[40px] text-white font-bold">Sadik</p>
