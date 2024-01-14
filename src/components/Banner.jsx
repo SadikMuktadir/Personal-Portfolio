@@ -19,7 +19,7 @@ const Banner = () => {
             <div className="flex justify-center items-center">
               <MdEmail className="text-[20px] mr-4" />
             </div>
-            <p className="text-[15px] lg:text-[25px]">sadikmoktadirweb@gmail.com</p>
+            <p className="text-[15px] lg:text-[25px]">sadik@leadheroesbd.com</p>
           </div>
           <div className="flex mb-2">
             <div className="flex justify-center items-center">

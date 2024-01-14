@@ -7,7 +7,7 @@ const MyExperience = () => {
         </h1>
       </div>
       <div className="w-[280px] lg:w-[500px] p-[20px] lg:p-[50px] bg-[#F2F4F7] rounded-[30px] mr-5">
-        <p className="text-[20px] lg:text-[30px] font-bold">Lead Heros</p>
+        <p className="text-[20px] lg:text-[30px] font-bold">Lead Heroes Bangladesh</p>
         <p className="text-[#FD853A] text-[15px] font-semibold lg:text-[20px]">
           Web Developer
         </p>
