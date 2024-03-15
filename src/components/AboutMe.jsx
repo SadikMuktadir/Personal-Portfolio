@@ -41,7 +41,7 @@ const AboutMe = () => {
           </p>
           <p className="text-[15px] lg:text-[20px] text-[#98A2B3] font-semibold">
             {" "}
-            B.Sc. in Civil Engineering (L2-T2)
+            B.Sc. in Civil Engineering (L3-T1)
           </p>
         </div>
         <div className="my-5 lg:my-0 w-[280px] lg:w-[500px] rounded-[30px] p-[20px] lg:p-[50px] bg-[#F2F4F7] mr-5">
