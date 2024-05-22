@@ -1,4 +1,4 @@
-import { MdEmail, MdDownload } from "react-icons/md";
+import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
 const Banner = () => {
   return (
@@ -63,7 +63,7 @@ const Banner = () => {
           </a>
         </div>
         <div>
-          <div
+          {/* <div
             className="mt-[40px] text-[#171717] hover:text-white bg-white hover:bg-[#FD853A] w-[250px] rounded-[35px] px-[60px] py-[30px]"
             style={{ border: "1px solid #171717", padding: "13px 25px" }}
           >
@@ -77,7 +77,7 @@ const Banner = () => {
                 </h1>
               </div>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex justify-center items-center">

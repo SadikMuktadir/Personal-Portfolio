@@ -29,7 +29,7 @@ const MyExperience = () => {
               </p>
             </div>
           </div>
-          <div className="w-[280px] lg:w-[500px] p-[20px] lg:p-[50px] bg-[#F2F4F7] rounded-[30px] mr-5">
+          {/* <div className="w-[280px] lg:w-[500px] p-[20px] lg:p-[50px] bg-[#F2F4F7] rounded-[30px] mr-5">
             <p className="text-[20px] lg:text-[30px] font-bold">
               Excel Automation Pro
             </p>
@@ -47,7 +47,7 @@ const MyExperience = () => {
                 </ul>
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
