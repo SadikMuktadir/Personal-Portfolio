@@ -158,6 +158,83 @@ const Projects = () => {
               </a>
             </div>
           </div>
+          <div className="flex justify-around my-2 mr-5">
+            <div
+              className="w-100px rounded-[35px] my-auto"
+              style={{ border: "1px solid #667085", padding: "5px 10px" }}
+            >
+              <p className="text-[15px] text-[#667085]">React JS</p>
+            </div>
+            <div
+              className="w-100px rounded-[35px] my-auto"
+              style={{ border: "1px solid #667085", padding: "5px 10px" }}
+            >
+              <p className="text-[15px] text-[#667085]">Tailwind CSS</p>
+            </div>
+            <div
+              className="w-100px rounded-[35px] my-auto"
+              style={{ border: "1px solid #667085", padding: "5px 10px" }}
+            >
+              <p className="text-[15px] text-[#667085]">Node JS</p>
+            </div>
+            <div
+              className="w-100px rounded-[35px] my-auto"
+              style={{ border: "1px solid #667085", padding: "5px 10px" }}
+            >
+              <p className="text-[15px] text-[#667085]">Express JS</p>
+            </div>
+          </div>
+          <div className="flex my-2 ml-[5px]">
+            <div
+              className="w-100px mr-[10px] rounded-[35px] my-auto"
+              style={{ border: "1px solid #667085", padding: "5px 10px" }}
+            >
+              <p className="text-[15px] text-[#667085]">MongoBD</p>
+            </div>
+            <div
+              className="w-100px rounded-[35px] my-auto"
+              style={{ border: "1px solid #667085", padding: "5px 10px" }}
+            >
+              <p className="text-[15px] text-[#667085]">Firebase</p>
+            </div>
+          </div>
+        </div>
+        <div className="card w-[300px] lg:w-[400px] shadow-xl">
+          <div className="card-body">
+            <div className="h-[80px]">
+              <h2 className="text-[32px] px-3 text-center">
+               NewsPaper Website
+              </h2>
+            </div>
+            <div className="divider"></div>
+            <div>
+              <figure>
+                <img
+                  className="h-[200px] lg:h-[350px] w-[200px] lg:w-[350px]"
+                  src="https://i.ibb.co/9hWc1qk/markus-spiske-g6cc-ZL5-QNZg-unsplash.jpg"
+                  alt="Shoes"
+                />
+              </figure>
+            </div>
+          </div>
+          <div className="flex flex-col lg:flex-row my-4 mx-auto">
+            <div>
+              <a
+                href="https://alokitinews.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <div
+                  className="mr-4 text-[#171717] hover:text-white bg-white hover:bg-[#FD853A] w-[200px] mb-2 lg:mb-0 lg:w-[150px] rounded-[35px] px-[60px] py-[30px]"
+                  style={{ border: "1px solid #171717", padding: "13px 25px" }}
+                >
+                  <h1 className="text-[20px] text-center font-semibold">
+                    Live Link
+                  </h1>
+                </div>
+              </a>
+            </div>
+          </div>
           <div className="flex justify-around my-2">
             <div
               className="w-100px rounded-[35px] my-auto"
